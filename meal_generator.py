@@ -1,4 +1,4 @@
-tuna_casserole = open('tuna_casserole.txt', 'r')
+tuna_casserole = open('./Recipes/tuna_casserole.txt', 'r')
 
 with tuna_casserole as f:
     f_contents = f.read()
