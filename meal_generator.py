@@ -12,10 +12,12 @@ scooby_doo = open('./Recipes/scooby_doo.txt', 'r')
 black_bean_burger = open('./Recipes/black_bean_burger.txt', 'r')
 kielbasa = open('./Recipes/kielbasa.txt', 'r')
 lentil_soup = open('./Recipes/lentil_soup.txt', 'r')
+meatloaf = open('./Recipes/meatloaf.txt', 'r')
+asian_meatballs = open('./Recipes/asian_meatballs.txt', 'r')
 
 recipes = [tuna_casserole, lemon_chicken, spaghetti, goulash, 
 ranch_chicken_parm, chicken_marsala, cheeseburgers, chicken_bacon_ranch, 
-scooby_doo, black_bean_burger, kielbasa, lentil_soup]
+scooby_doo, black_bean_burger, kielbasa, lentil_soup, meatloaf, asian_meatballs]
 
 random.shuffle(recipes)
 
